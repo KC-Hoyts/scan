@@ -1,0 +1,29 @@
+.companyBox{
+    display: flex;
+    flex-direction: column;
+    background-color: #cfcfcf33;
+    height: 63px;
+    border-radius: 5px;
+    padding:10px;
+    font-size:10px;
+    line-height:20px;
+    align-items: flex-end;
+    margin-right: 7vw;
+}
+.companyBox__usedCompany{
+    margin-right: 8px; 
+    opacity: 40%;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: end;  
+}
+.companyBox__black{
+    font-size: 14px;
+    font-weight: 700;
+    color:black
+}
+.companyBox__green{
+    font-size: 14px;
+    font-weight: 700;
+    color: #40c55b;
+}

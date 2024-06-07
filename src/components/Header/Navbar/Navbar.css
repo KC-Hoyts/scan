@@ -1,0 +1,33 @@
+.menu{
+    display:flex;
+    align-items: center;
+    margin-left: 25vw;
+}
+.menu__link {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    margin-right: 45px;
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 17px;
+    cursor: text;
+    cursor: pointer;
+    pointer-events:initial;
+    cursor:pointer;
+    color:black;  
+}
+.menu__link:hover{
+    color:blue;
+}
+
+@media screen and (max-width:750px) {
+    .menu{
+    margin-left: 60px;
+    }  
+}
+@media screen and (max-width:950px) {
+    .menu{
+        display: none;
+    } 
+}

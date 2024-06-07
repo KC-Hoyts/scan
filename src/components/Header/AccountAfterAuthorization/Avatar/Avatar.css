@@ -1,0 +1,19 @@
+.avatar{
+    display: flex;
+}
+.avatar__content{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+.avatar__button{
+    border: none;
+    font-size: 12px;
+    line-height: 12px;
+    background-color: white;
+    opacity: 70%;
+    text-align: end;
+}
+.avatar__img{
+    margin:5px 0 0 5px;
+}
